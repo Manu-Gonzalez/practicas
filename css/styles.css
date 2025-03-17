@@ -1,3 +1,8 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
 img{
     height: 40px;
     width: 40px;
@@ -5,5 +10,6 @@ img{
 }
 
 .detalles_personales{
+    padding-left:40px;
     background-color: aqua;
 }

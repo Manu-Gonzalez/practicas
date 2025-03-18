@@ -1,15 +1,30 @@
+
 body{
     height: 100vh;
     width: 100vw;
 }
 
-img{
-    height: 40px;
-    width: 40px;
+header{
+    display: flex;
+    height: 35%;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.img{
+    height: 100px;
+    width: 100px;
     border-radius: 40px;
+    
 }
 
 .detalles_personales{
-    padding-left:40px;
     background-color: aqua;
+    flex-basis: 25%;
 }
+
+main{
+    height: 75%;
+    width: 100%;
+}
+
